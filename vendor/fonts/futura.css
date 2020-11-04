@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Futura'; 
+    src: url(./FuturaPT-Light.woff);
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'Futura'; 
+    src: url(./FuturaPT-Medium.woff);
+    font-weight: 400; 
+}
+
+@font-face {
+    font-family: 'Futura'; 
+    src: url(./FuturaPT-Demi.woff);
+    font-weight: 500; 
+}
+
+@font-face {
+    font-family: 'Futura'; 
+    src: url(./FuturaPT-Bold.woff); 
+    font-weight: 600;
+}
+

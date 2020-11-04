@@ -1,0 +1,118 @@
+.product {
+    padding: 40px 0;
+}
+
+.product__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product__image {
+    max-width: 50%;
+    margin: 0 40px 0 0;
+}
+
+.product__descript {
+    max-width: 48%;
+}
+
+.product__title, .slide__title {
+    color: #ae663a;
+    font-weight: 500;
+    font-size: 38px;
+    margin: 0 0 12px 0;
+}
+
+.product__text, .slide__text {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 200;
+}
+
+.product__link {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin: 120px 0 0 0;
+    transition: all .3s;
+}
+
+.product__link:hover {
+    color: #ae663a;
+}
+
+
+.slider {
+    background: url(../images/rv4bg.png) top center no-repeat;
+    background-size: cover;
+}
+
+.slide {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.slide__image {
+    align-self: center;
+    max-width: 100%;
+}
+
+.slide__title {
+    position: absolute;
+    left: 60px;
+    margin: 20px 0 0 0;
+}
+
+.slide__text {
+    max-width: 560px;
+    align-self: center;
+}
+
+#mtt990 {
+    margin: 0 0 0 40px;
+}
+
+@media screen and (max-width: 880px) {
+    .product__body {
+        flex-direction: column;
+    }
+
+    .product__image {
+        max-width: 60%;
+        margin: 20px 0 0 0;
+    }
+
+    .product__descript {
+        max-width: 100%;
+        margin: 20px 0 0 0;
+    }
+
+    #mtt990 {
+        margin: 20px 0 0 0;
+    }
+
+    .product__title, .slide__title {
+        font-size: 24px;
+        margin: 0 0 12px 0;
+    }
+
+    .product__link {
+        margin: 20px 0 0 0;
+    }
+
+    .slide {
+        padding: 20px 0 0 0;
+    }
+    
+    .product__text, .slide__text {
+        font-size: 14px;
+    }
+
+    .slide__title {
+        position: static;
+    }
+}
