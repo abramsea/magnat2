@@ -22,6 +22,7 @@
     font-weight: 500;
     font-size: 38px;
     margin: 0 0 12px 0;
+    text-transform: uppercase;
 }
 
 .product__text, .slide__text {

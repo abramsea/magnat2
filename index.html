@@ -101,9 +101,6 @@
             
         </div>
 
-
-
-
         <div class="product">
             <div class="product__body">
                 <div class="product__descript">
@@ -120,6 +117,43 @@
                 Читать обзор аудиотракта Magnat Transpuls 1500 \ MR 780\ MTT 990 &nbsp;&rarr;
             </a>
         </div>
+
+
+        <section class="vinyl">
+            <h2 class="product__title">
+                Подборка топ 10 виниловых рок пластинок
+            </h2>
+
+            <div class="vinyl__slider">
+                <a href="https://st-petersburg.pult.ru/product/vinilovaya-plastinka-queen--the-game" class="vinyl__slide" target="_blank">
+                    <img src="./images/queen.jpg" alt="" class="vinyl__img">
+                </a>
+
+                <a href="https://st-petersburg.pult.ru/product/vinilovaya-plastinka-pink-floyd-animals" class="vinyl__slide" target="_blank">
+                    <img src="./images/pinkf.jpg" alt="" class="vinyl__img">
+                </a>
+
+                <a href="https://st-petersburg.pult.ru/product/vinilovaya-plastinka-wm-chris-rea-the-road-to-hell--180-gram" class="vinyl__slide" target="_blank">
+                    <img src="./images/rea.jpg" alt="" class="vinyl__img">
+                </a>
+
+                <a href="https://st-petersburg.pult.ru/product/vinilovaya-plastinka-leonard-cohen-the-future" class="vinyl__slide" target="_blank">
+                    <img src="./images/cohen.jpg" alt="" class="vinyl__img">
+                </a>
+
+                <a href="https://st-petersburg.pult.ru/product/vinilovaya-plastinka-queen--innuendo--standalone---black-vinyl" class="vinyl__slide" target="_blank">
+                    <img src="./images/innuendo.jpg" alt="" class="vinyl__img">
+                </a>
+
+                <a href="https://pult.ru/product/vinilovaya-plastinka-ac-dc-for-those-about-to-rock--we-salute-you---remastered-180-gram" class="vinyl__slide" target="_blank">
+                    <img src="./images/acdc.jpg" alt="" class="vinyl__img">
+                </a>
+            </div>
+
+            <p class="product__text">
+                *Специалисты бренда магнат Magnat составили собственный виниловый плейлист, который максимально эффективно демонстрирует выдающиеся способности акустических систем Transpuls 1500.
+            </p>
+        </section>
 
 
     </main>
@@ -185,7 +219,33 @@
     <script src="js/appear.js"></script>
     <script src="slick/slick.js"></script>
     <script>
-        $('.slider').slick();			
+        $('.slider').slick();
+
+        $('.vinyl__slider').slick({
+            centerMode: true,
+            centerPadding: '20px',
+            slidesToShow: 3,
+            responsive: [
+                {
+                breakpoint: 768,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '12px',
+                    slidesToShow: 3
+                }
+                },
+                {
+                breakpoint: 480,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '60px',
+                    slidesToShow: 1
+                }
+                }
+            ]
+            });			
     </script>
 </body>
 </html>

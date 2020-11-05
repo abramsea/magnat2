@@ -1,0 +1,26 @@
+.vinyl {
+    padding: 40px 0;
+}
+
+.vinyl__slider {
+    padding: 40px 0;
+}
+
+.vinyl__slide {
+    display: block;
+    text-decoration: none;
+    transition: all .2s;
+    max-width: 200px;
+}
+
+.vinyl__img {
+    max-width: 100%;
+}
+
+.slick-current .vinyl__slide {
+    max-width: 260px;
+}
+
+.vinyl .product__text {
+    max-width: 560px;
+}
