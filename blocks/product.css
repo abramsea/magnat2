@@ -6,6 +6,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    text-decoration: none;
+    color: #fff;
 }
 
 .product__image {
@@ -107,6 +110,9 @@
 
     .slide {
         padding: 20px 0 0 0;
+
+        text-decoration: none;
+        color: #fff;
     }
     
     .product__text, .slide__text {
